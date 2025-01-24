@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*shared styles*/
+.text-center{
+    text-align: center;
+}
+.color{
+    background-color: #006A50;
+}
+
+/*Font style*/
+.font{
+    font-family: "Fira Sans","Open Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    text-transform: uppercase;
+  }
+/* Nav bar design */
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 150px 40px 150px;    
+}
+
+/*sign-in-button*/
+.btn-1{
+    background-color: #f1f1f1;
+    color: #006A50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    border-color: #006A50;
+}
+
+/*hero section*/
+.hero-section{
+ height: 560px;
+ width: 1280px;
+ margin: 0 160px 0 200px;
+ border-radius: 24px;
+background: rgb(198, 228, 214);
+display: flex;
+justify-content: space-between;
+}
+  
+.hero-title{
+    margin: 10px 598px 197px 60px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-p{
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.hero-img{
+position: absolute;
+width: 474.03px;
+height: 329.21px;
+left: 55.37%;
+right: -157.37%;
+top: 20%;
+bottom: -2.3%;
+}
+
+.hero-btn{
+color: #FFFFFF;
+width: 260px;
+height: 55px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600px;
+}
+/*piller of bd*/
+.piller-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 156px 0 156px;
+}
+
+.piller-content{
+    margin: 10px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.603);
+}
+
+.section-title{
+    position: absolute;
+    width: 1280px;
+    height: 48px;
+    left: 167px;
+    
+}
+/*shared font size*/
+.font-h3{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+}
+
+/*the vision of future*/
+
+.vision-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 156px 0 156px;
+    
+}
+
+.vision-content-1, .vision-content-2, .vision-content-3{
+    margin: 10px;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(10, 10, 10, 0.842);
+    
+}
+
+.vision-heading{
+display: flex;
+flex-direction: column;
+margin-left: 160px;
+margin-top: 20px;
+}
+
+.vision-heading p{
+    color: #0E0E0E;
+    font-size: 12px;
+}
+
+.btn-vision-1{
+    background-color: #3c74bec5;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    border-color:#5490F5;
+}
+
+.btn-vision-2{
+    background-color: #09A15C;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    border-color:#09A15C;
+}
+
+.btn-vision-3{
+    background-color: #FFC239;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    border-color:#FFC239;
+}
+
+.vision-content-1{
+    background-color: #5490F5;
+    
+}
+
+.vision-content-2{
+    background-color: #C6E4D6;
+}
+
+.vision-content-3{
+    background-color: #F7EBCF;
+}
+
+/*vector section*/
+
+.vector{
+    background-color: #FFFFFF;
+    height: 260px;
+    margin: 165px;
+    border-radius: 5px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+
+.vector-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 56px 0 56px;
+}
+
+.vector-bg{
+position: relative;
+}
+
+/*feedback section*/
+.feedback{
+    height:380px;
+    margin: 165px ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    min-height: 200px; 
+}
+.feedback-container{
+    background-color:#FFFFFF;
+    height: 360px;
+    margin: 160px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+table{
+    width: 1360px;
+    background-color: #FFFFFF;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    flex-direction: column;
+    
+}
+
+select {
+    padding: 10px;
+    font-size: 16px; 
+    background-color:#C6E4D6;
+}
+
+.font-h{
+color: rgb(15, 15, 15);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+}
+
+/*news section*/
+.news-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .news-card {
+    display: flex;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .news-card-image {
+    width: 40%;
+    object-fit: cover;
+  }
+  
+  .news-card-content {
+    padding: 20px;
+    width: 60%;
+  }
+  
+  .news-card-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .news-card-content .aljazeera{
+    width: 80px;
+    height: 20px;
+    background-color: #f0f0f0;
+    color: #666;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .news-card-content .date-time {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .news-card-content .news-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .news-card-content .read-more {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .news-card-content .read-more:hover {
+    background-color: #0056b3;
+  }
+.aljazeera{
+    margin-left: 13px;
+}
+
+.card-image{
+    height: 200px;
+    object-fit: cover;
+    width: 30%;
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    object-fit: cover; 
+}
+/*donation*/
+
+.donation-container{
+    margin: 80px 160px 0 160px;
+}
+
+.heading-h{
+    margin-left: 560px;
+}
+
+.donate-content{
+    width: 1071px;
+    height: 128px;
+    margin: 20px 190px 0 190px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 24px;
+    padding: 40px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 24;
+padding: 40px;
+align-items: center;
+justify-content: flex-start
+}
+
+.amount{
+border: 10px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 0px;
+margin: 32px 0;
+}
+
+.news-card-2{
+    flex-direction: row-reverse;
+}
